@@ -1,0 +1,74 @@
+,EVENT_DATE,Attendance_Count,Sales_Count,AttendancePercentage,DAY,max_temp,min_temp,avgtemp,Rain,Snow,Condition,Weather,Temp,Temp_Diff,Promotions/Events
+68,2024-04-02,1956,2750,71.13,Tue,41.9,36.5,39.9,100,0,Rain,CLOUDY,52,12,0
+50,2024-04-05,485,590,82.2,Fri,37.5,28.3,33.0,0,100,Snow,CLOUDY,41,8,0
+59,2024-04-06,510,637,80.06,Sat,39.6,33.4,36.2,0,100,Snow,OVERCAST,42,6,WooSox Tumbler Giveaway / Fireworks / Clinton Town Takeover
+12,2024-04-07,560,621,90.18,Sun,41.4,33.2,36.8,0,100,Snow,CLOUDY,42,5,Meet the Team Party / Sports Memorabilia Day / Sunset Catch on the Field
+7,2024-04-16,1079,1160,93.02,Tue,58.4,41.4,49.0,0,0,Cloudy,PARTLY CLOUDY,64,15,Sunday Funday / Kids Run the Bases / Bark in the Park
+9,2024-04-17,1223,1326,92.23,Wed,60.1,36.9,48.4,0,0,Cloudy,PARTLY CLOUDY,62,14,Taco & Tequila Tuesday / Free Parking Tuesday / School Vacation Week / Portuguese Heritage Night
+70,2024-04-18,448,646,69.35,Thu,44.4,40.2,42.6,100,0,Rain,RAIN,41,2,Autograph Wednesday / First Responder Wednesday / Postgame Movie - Bull Durham / School Vacation Week
+5,2024-04-19,2304,2473,93.17,Fri,51.8,37.7,44.2,100,0,Rain,CLEAR,56,12,Throwback Thursday - Jonny Gomes / School Vacation Week / Teacher Appreciation Day
+8,2024-04-20,1703,1835,92.81,Sat,57.9,40.8,48.8,100,0,Rain,CLOUDY,60,11,Sparks Fly Fireworks / WooU Night / Flashback Friday - Denis Eckersley / School Vacation Week
+13,2024-04-21,1381,1532,90.14,Sun,52.6,34.4,43.2,45,0,Cloudy,PARTLY CLOUDY,50,7,Women in Sports Day / Sunset Catch on the Field / Schoo Vacation Week
+26,2024-04-30,279,322,86.65,Tue,58.6,51.4,54.1,100,0,Rain,COULDY,59,5,Autism Acceptance Day / Sunday Funday / Kids Run the Bases / School Vacation Week
+62,2024-05-01,210,264,79.55,Wed,55.8,44.9,49.3,100,0,Fog,COULDY,51,2,"Taco & Tequila Tuesday / Free Parking Tuesday / Wepas - South America (Venezuela, Colombia, Peru)"
+3,2024-05-02,782,839,93.21,Thu,68.6,46.1,56.0,100,0,Fog,CLOUDY,72,16,School Day/ First Responder Wednesday/ Player Autograph
+17,2024-05-03,1398,1556,89.85,Fri,57.4,44.8,51.8,45,0,Rain,PARTLY CLOUDY,60,8,Throwback Thursday - John Trautwein / Mental Health Awareness Night
+2,2024-05-04,1961,2100,93.38,Sat,61.2,42.6,50.9,45,0,Cloudy,CLOUDY,62,11,Hollywood's Greatest Hits Fireworks / Deaf&HOH Awareness
+57,2024-05-05,802,983,81.59,Sun,48.5,43.1,45.8,100,0,Rain,OVERCAST,50,4,May the Fourth Be With You - Star Wars Day / Boylston Town Takeover / Sunset Catch on the Field
+6,2024-05-14,780,838,93.08,Tue,72.6,49.4,59.7,100,0,Rain,CLEAR,77,17,Wepas (Mexico & Spain) / Cinco de Mayo / Sunday Funday / Kids Run the Bases
+48,2024-05-15,410,496,82.66,Wed,65.4,56.3,60.4,100,0,Rain,PARTLY CLOUDY,72,12,Free Parking Tuesday / BP Tuesday / Taco & Tequila Tuesday / Holden Town Takeover
+51,2024-05-16,331,403,82.13,Thu,57.3,53.7,55.7,100,0,Rain,PARTLY CLOUDY,67,11,First Responder Wednesday / School Field Trip Day / Player Autugraph Wednesday
+11,2024-05-17,1413,1562,90.46,Fri,66.7,49.7,56.6,45,0,Rain,PARTLY CLOUDY,68,11,Throwback Thursday / Nurses Appreciation Night
+72,2024-05-18,751,1617,46.44,Sat,67.9,49.8,57.2,0,0,Cloudy,RAIN,57,0,Classic Rock Fireworks / Natick Town Takeover
+15,2024-05-19,1877,2088,89.89,Sun,60.1,50.7,55.3,100,0,Rain,COULDY,62,7,0
+10,2024-05-21,509,561,90.73,Tue,80.8,53.2,66.5,0,0,Fog,CLEAR,84,18,Breast Cancer Awareness Day / Sunday Funday / Kids Run the Bases
+16,2024-05-22,453,504,89.88,Wed,84.9,60.1,71.4,100,0,Cloudy,CLEAR,85,14,Wepas (Cuba) / Taco & Tequila Tuesday / Free Parking Tuesday / BP Tuesday
+67,2024-05-23,393,520,75.58,Thu,81.2,61.4,69.3,100,0,Rain,PARTLY CLOUDY,69,0,First Responder Wednesday / Berlin & Maynard Town Takeover
+1,2024-05-24,1909,2038,93.67,Fri,77.5,57.3,67.6,45,0,Sunny,CLEAR,85,17,Throwback Thursday - Jim Lonborg / School Field Trip Day
+0,2024-05-25,2933,3114,94.19,Sat,75.5,51.3,62.9,0,0,Sunny,SUNNY,79,16,Uxbridge Town Takeover / 70s Serenade Fireworks
+4,2024-05-26,2752,2953,93.19,Sun,81.3,58.9,68.8,100,0,Rain,SUNNY,79,10,Bill Ballou Writers Series / Oxford Town Takeover / Faith & Family Day
+33,2024-06-04,544,637,85.4,Tue,76.0,51.6,63.0,100,0,Rain,CLEAR,80,17,Brain Tumor Awareness Day / Brain Tumor Awareness Walk / Sunday Funday / Kids Run the Bases
+22,2024-06-05,470,538,87.36,Wed,79.2,55.6,66.3,100,0,Rain,PARTLY CLOUDY,80,14,ALS Awareness Day / Taco & Tequila Tuesday / BP Tuesday
+69,2024-06-06,411,579,70.98,Thu,65.7,60.7,63.8,100,0,Rain,CLOUDY,74,10,"First Responder Wednesday / Los Wepas - Argentina, Chile, Paraguay, Uruguay, Bolivia"
+53,2024-06-07,1571,1914,82.08,Fri,79.2,59.1,69.0,100,0,Fog,CLEAR,77,8,Malmo Oak Milkers / Throwback Thursday - Bill Lee / School Field Trip Day
+21,2024-06-08,2171,2482,87.47,Sat,65.8,54.4,60.5,100,0,Rain,PARTLY CLOUDY,73,13,Indian Heritage Night / Oh So '80s Firework
+39,2024-06-09,1750,2071,84.5,Sun,66.8,53.7,58.6,100,0,Rain,RAIN,55,4,On-Field Photo Day / Scout Sleepover / WooSox Scholar Class of '24 Induction
+31,2024-06-18,1182,1381,85.59,Tue,90.2,63.3,75.3,0,0,Cloudy,CLEAR,89,14,Bark in the Park / Sunday Funday / Kids Run the Bases / Springfield & 413 Town Takeover / Worcester Ruby Legs
+44,2024-06-19,687,822,83.58,Wed,92.1,67.5,77.0,100,0,Rain,CLEAR,88,11,Peanut Allergy Friendly Week / Auburn Town Takeover / Taco & Tequlia Tuesday / BP Tuesday
+58,2024-06-20,593,729,81.34,Thu,92.9,65.3,76.7,100,0,Rain,CLEAR,93,16,Peanut Allergy Friendly Week / First Responder Wednesday / A Celebration of Juneteenth
+65,2024-06-21,1434,1846,77.68,Fri,82.8,65.7,73.0,100,0,Rain,CLOUDY,67,6,Peanut Allergy Friendly Week / Throwback Thursday - Jim Rice / Framingham Town Takeover
+71,2024-06-22,1418,2079,68.21,Sat,79.1,67.1,72.2,100,0,Rain,CLOUDY,63,9,Peanut Allergy Friendly Week / Irish Heritage Night / Motown & More Firework
+41,2024-06-23,2158,2572,83.9,Sun,87.6,62.5,72.5,100,0,Rain,CLOUDY,82,10,Peanut Allergy Friendly Week / Writers Series - Brian Abraham / Scout Sleepover / Make-A-Wish Day / Youth Clinic / Sunset Catch on the Field
+55,2024-07-04,4291,5238,81.92,Thu,79.3,64.3,70.3,100,0,Rain,CLOUDY,77,7,Peanut Allergy Friendly Week / Sunday Funday / Pawsox Heritage Day / Kids Run the Bases
+40,2024-07-05,3041,3623,83.94,Fri,86.1,68.4,75.5,100,0,Fog,CLOUDY,80,5,Fourth of July / Patriotic Fireworks / Throwback Thursday - Oil Can Boyd
+42,2024-07-06,2526,3014,83.81,Sat,75.1,70.3,72.3,100,0,Rain,PARTLY CLOUDY,84,12,Pop Patriotic Fireworks
+29,2024-07-09,871,1010,86.24,Tue,81.5,72.0,76.2,100,0,Rain,CLEAR,92,16,WooSox Foundation Youth Clinic / Fitchburg & Leominster & Gardner Town Takeover / MA Lottery State of Winning Day / Sunset Catch on the Field
+36,2024-07-10,1031,1212,85.07,Wed,82.9,70.4,76.5,100,0,Rain,PARTLY CLOUDY,86,10,Taco & Tequila Tuesday / Jewish Heritage Night / BP Tuesday
+20,2024-07-11,1035,1174,88.16,Thu,83.2,72.0,76.0,100,0,Rain,CLEAR,88,12,First Responder Wednesday / STEM Day / Player Autograph Day
+32,2024-07-12,2161,2528,85.48,Fri,87.7,65.2,75.5,45,0,Fog,CLEAR,84,9,Millbury Town Takeover / Throwback Thursday - Bob Stanley
+18,2024-07-13,2530,2847,88.87,Sat,83.3,68.7,74.1,100,0,Rain,PARTLY CLOUDY,84,10,Los Wepas de Worcester - Central America / Gettin' Jiggy with the '90s Fireworks
+52,2024-07-14,2260,2752,82.12,Sun,88.7,68.0,77.6,0,0,Fog,SUNNY,87,9,WooSox Foundation Youth Clinic / Great Polar Park Writers Series - Dan Shaughnessy & Mike Barnicle / Leicester Town Takeover / WooCrew '24 Launch Party / Sunset Catch on the Field
+37,2024-07-30,1253,1481,84.6,Tue,86.0,62.1,73.4,100,0,Fog,CLEAR,83,10,Sunday Funday / Caribbean Heritage Night / Homerun for Life / Kids Run the Bases
+63,2024-07-31,635,800,79.38,Wed,76.9,68.9,73.0,100,0,Rain,RAIN,0,73,Spencer Town Takeover / Taco & Tequila Tuesday / BP Tuesday
+34,2024-08-01,1295,1519,85.25,Thu,88.7,69.4,77.7,0,0,Fog,SUNNY,88,10,First Responder Wednesday / Albanian Heritage Night / Jimmy Fund Night
+45,2024-08-02,2342,2823,82.96,Fri,89.7,69.1,77.5,100,0,Rain,CLOUDY,76,2,Los Wepas - Dminican Rebulic / STEM day / Throwback Thursday - Lenny DiNardo / Autograph Thursday
+54,2024-08-03,2538,3095,82.0,Sat,85.0,69.5,74.8,100,0,Rain,PARTLY CLOUDY,88,13,Joe Torre Safe at Home / Town Takeover - Charlton / FIreworks - Country Classics
+35,2024-08-04,2244,2636,85.13,Sun,77.6,69.3,72.6,100,0,Rain,PARTLY CLOUDY,85,12,WooSox Foundation Youth Clinic / Great Polar Park Writer Series - Alex Speier / Bark in the Park / Italian Heritage Night / Sunset Catch on the Field
+24,2024-08-13,1297,1488,87.16,Tue,78.8,54.6,67.4,0,0,Cloudy,PARTLY CLOUDY,76,9,Sunday Funday / Town Takeover - Rutland & Sterling / Marvel Defender of the Diamond / Kids Run the Bases
+38,2024-08-14,1122,1327,84.55,Wed,80.3,59.4,68.8,100,0,Cloudy,CLOUDY,78,9,Sturbridge Town Takeover / Taco & Tequila Tuesday / BP Tuesday
+49,2024-08-15,837,1018,82.22,Thu,80.7,59.7,67.6,100,0,Rain,DRIZZLE,68,0,First Responder Wednesday / Battle of Boroughs / Woostars
+60,2024-08-16,2332,2917,79.95,Fri,84.9,60.1,71.3,45,0,Cloudy,OVERCAST,72,1,Korean Heritage Night / Throwback Thursday - Jack Edwards
+43,2024-08-17,2727,3254,83.8,Sat,83.1,63.8,72.6,45,0,Fog,SUNNY,79,6,Town Takeover - Southbridge / Best Buddies Day / Fireworks - The Best of British Invasion
+46,2024-08-18,2481,2992,82.92,Sun,79.0,62.7,69.8,100,0,Rain,DRIZZLE,67,3,Challenger Clinic /  Writers Series - Doris Kearns Goodwin / Southeast Asian Heritage Night / Scout Sleepover / Wicked Worms of Worcester / Sunset Catch on the Field
+19,2024-08-27,1192,1349,88.36,Tue,81.8,60.3,70.3,0,0,Fog,CLEAR,82,12,Sunday Funday / Strike Out Hunger Day / Los Wepas - Puerto Rico / Kids Run the Bases
+27,2024-08-28,572,661,86.54,Wed,86.1,66.3,73.0,100,0,Rain,CLEAR,81,8,BT Tuesday / Taco & Tequila Tuesday / Woofster Bobblehead Giveaway / Battle of the Brookfields Town Takeover
+14,2024-08-29,1103,1224,90.11,Thu,71.0,53.0,60.7,0,0,Cloudy,PARTLY CLOUDY,69,8,"Less Likes More Love Night / Prostate Cancer Awareness Night / First Responder / Grafton, Upton, Mendon Town Takeover"
+47,2024-08-30,2480,3000,82.67,Fri,73.6,49.4,60.5,0,0,Sunny,CLEAR,71,11,Shrewsbury Town Takeover
+56,2024-08-31,2964,3632,81.61,Sat,74.6,56.3,66.1,100,0,Fog,CLOUDY,77,11,Polish Heritage Night / TV Theme Songs Firework
+23,2024-09-01,2448,2804,87.3,Sun,72.9,65.2,68.6,100,0,Rain,PARTLY CLOUDY,79,10,"Cornhold Tournament / Section 10 Day / Paxton Town Takeover / Pirates, Princes & Princesses Day / Sunset Catch on the Field / International Overdoes Awareness Day"
+25,2024-09-10,429,493,87.02,Tue,72.1,53.7,61.9,45,0,Fog,CLEAR,72,10,Family Funday Sunday / Childhood Cancer Awareness Day / Kids Run the Bases
+30,2024-09-11,627,729,86.01,Wed,74.1,50.8,61.4,0,0,Sunny,CLEAR,74,13,Fan Appreciation Week / Taco & Tequila Tuesday / BOGO soft-serving ice cream
+64,2024-09-12,767,979,78.35,Thu,76.9,53.7,63.8,0,0,Cloudy,CLEAR,76,12,Fan Appreciation Week / Batting Practice / Pre-game Player Autograph at Sherwood Diner / First Responder / Blood Drive
+66,2024-09-13,2111,2729,77.35,Fri,80.9,56.0,67.6,100,0,Sunny,CLEAR,81,13,Fan Appreciation Week / Batting Practice / Throwback Thursday - Derek Lowe & Steve Lyons / Look What You Made Us Do : Sparks Fly Pt.2 / WooU Night - MACC Night
+61,2024-09-14,2492,3126,79.72,Sat,80.3,60.6,68.8,0,0,Cloudy,SUNNY,80,11,Fan Appreciation Week / Batting Practice / Pre-game Player Autograph / Pride at Park / Friday Firework - Love is All You Need
+28,2024-09-15,2291,2652,86.39,Sun,77.5,58.9,66.9,45,0,Fog,SUNNY,73,6,Fan Appreciation Week / Pre-game Autograph / Summer Sendoff presented by MASScot / Los Wepas - Brazil / Sunset Catch on the Field
