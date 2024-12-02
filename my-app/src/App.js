@@ -11,20 +11,30 @@ function App() {
 
   const weatherOptions = ['Sunny', 'Clear', 'Partly Cloudy', 'Cloudy', 'Overcast', 'Drizzle', 'Rain'];
   const eventOptions = ['Opening Day', 'Fireworks', 'Promotions', 'Regular', 'None'];
-  const dayOptions = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  const dayOptions = ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
+  const [loading, setLoading] = useState(false);
   const handlePredict = async () => {
+    setLoading(true);
     try {
       const response = await axios.post('http://localhost:5000/predict', {
-        weather,
-        event,
-        dayOfWeek,
+        weather_weight: weatherOptions.indexOf(weather) + 1, // Example mapping
+        event_weight: eventOptions.indexOf(event) + 1, // Example mapping
+        temp_weight: 0, // Default value
+        prev_sales_1: 0, // Default value
+        prev_sales_2: 0, // Default value
+        rolling_mean_3: 0, // Default value
+        day_of_week: dayOfWeek,
       });
+      console.log("Response from API:", response.data);
       setPredictedAttendance(response.data.predictedAttendance);
     } catch (error) {
       console.error("Error fetching prediction:", error);
+    } finally {
+      setLoading(false);
     }
   };
+  const isFormValid = weather && event && dayOfWeek;
 
   return (
     <Container maxWidth="sm">
@@ -82,7 +92,7 @@ function App() {
             </TextField>
           </Grid>
           <Grid item xs={12}>
-            <Button variant="contained" color="primary" fullWidth onClick={handlePredict}>
+            <Button variant="contained" color="primary" fullWidth onClick={handlePredict} disabled={!isFormValid}>
               Predict Attendance
             </Button>
           </Grid>

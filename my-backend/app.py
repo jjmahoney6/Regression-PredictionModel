@@ -1,12 +1,33 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS 
 import pandas as pd
 import pickle
 
 # Load the saved model
-with open("attendance_model.pkl", "rb") as f:
-    model = pickle.load(f)
+# with open("attendance_model.pkl", "rb") as f:
+    # model = pickle.load(f)
 
 app = Flask(__name__)
+CORS(app)  
+
+# Mapping weather and event to numeric weights
+weather_map = {
+    'sunny': 1,
+    'clear': 2,
+    'partly cloudy': 3,
+    'cloudy': 4,
+    'overcast': 5,
+    'drizzle': 6,
+    'rain': 7
+}
+
+event_map = {
+    'opening day': 1,
+    'fireworks': 2,
+    'promotions': 3,
+    'regular': 4,
+    'none': 5
+}
 
 @app.route("/")
 def home():
@@ -20,13 +41,13 @@ def predict():
 
         # Extract features
         features = {
-            'event_weight': data.get('event_weight', 0),
-            'weather_weight': data.get('weather_weight', 0),
+            'weather_weight': weather_map.get(data.get('weather', 'sunny'), 0),
+            'event_weight': event_map.get(data.get('event', 'none'), 0),
             'temp_weight': data.get('temp_weight', 0),
             'prev_sales_1': data.get('prev_sales_1', 0),
             'prev_sales_2': data.get('prev_sales_2', 0),
             'rolling_mean_3': data.get('rolling_mean_3', 0),
-            'day_of_week': data.get('day_of_week', 'Monday')  # Default value
+            'day_of_week': data.get('day_of_week', 'Tuesday')  # Default value
         }
 
         # Map day_of_week to one-hot encoded features
