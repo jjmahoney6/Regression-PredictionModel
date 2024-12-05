@@ -18,22 +18,21 @@ function App() {
     setLoading(true);
     try {
       const response = await axios.post('http://localhost:5000/predict', {
-        weather_weight: weatherOptions.indexOf(weather) + 1, // Example mapping
-        event_weight: eventOptions.indexOf(event) + 1, // Example mapping
-        temp_weight: 0, // Default value
-        prev_sales_1: 0, // Default value
-        prev_sales_2: 0, // Default value
-        rolling_mean_3: 0, // Default value
-        day_of_week: dayOfWeek,
+        weather: weather, // Send weather string directly
+        event: event,     // Send event string directly
+        temp_weight: 0,   // Optional defaults
+        prev_sales_1: 0,
+        prev_sales_2: 0,
+        rolling_mean_3: 0,
+        day_of_week: dayOfWeek.charAt(0).toUpperCase() + dayOfWeek.slice(1), // Capitalize the first letter
       });
-      console.log("Response from API:", response.data);
-      setPredictedAttendance(response.data.predictedAttendance);
+      setPredictedAttendance(response.data.predicted_attendance);
     } catch (error) {
       console.error("Error fetching prediction:", error);
     } finally {
       setLoading(false);
     }
-  };
+  };  
   const isFormValid = weather && event && dayOfWeek;
 
   return (
