@@ -30,8 +30,8 @@ const App = () => {
     setLoading(true);
 
     const data = JSON.stringify({
+      temperature: temperature,
       weather,
-      temperature,
       event,
       day_of_week: dayOfWeek,
     });
@@ -76,7 +76,7 @@ const App = () => {
               value={weather}
               onChange={(e) => setWeather(e.target.value)}
             >
-              {['Sunny', 'Rainy', 'Cloudy'].map((option) => (
+              {['Sunny', 'Clear', 'Partly Cloudy', 'Cloudy', 'Overcast', 'Drizzle', 'Rain'].map((option) => (
                 <MenuItem key={option} value={option}>
                   {option}
                 </MenuItem>
@@ -106,7 +106,7 @@ const App = () => {
               value={event}
               onChange={(e) => setEvent(e.target.value)}
             >
-              {['Sports', 'Concert', 'Conference'].map((option) => (
+              {['Opening Day', 'Fireworks', 'Promotions', 'Regular', 'None'].map((option) => (
                 <MenuItem key={option} value={option}>
                   {option}
                 </MenuItem>
@@ -123,7 +123,7 @@ const App = () => {
               value={dayOfWeek}
               onChange={(e) => setDayOfWeek(e.target.value)}
             >
-              {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map(
+              {['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map(
                 (option) => (
                   <MenuItem key={option} value={option}>
                     {option}
