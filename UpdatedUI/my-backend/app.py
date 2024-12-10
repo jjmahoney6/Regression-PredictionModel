@@ -4,8 +4,8 @@ import pandas as pd
 import pickle
 
 # Load the saved model
-with open("attendance_model.pkl", "rb") as f:
-# with open("sum_model.pkl", "rb") as f:
+# with open("attendance_model.pkl", "rb") as f:
+with open("sum_model.pkl", "rb") as f:
     model = pickle.load(f)
     print(type(model))
 
